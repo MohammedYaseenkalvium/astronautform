@@ -37,3 +37,17 @@ body{
         transform: translateY(40px);
     }
 }
+form{
+    position: absolute;
+    top: 15%;
+    left: 56%;
+    width: 450px;
+    padding: 75px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.block-display{
+    display: blockg;
+
+}
