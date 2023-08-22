@@ -1,4 +1,4 @@
-gitigbody{
+body{
     background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png");
     width: 100vw;
     height: 100vh;
@@ -48,6 +48,6 @@ form{
 
 }
 .block-display{
-    display: blockg;
+    display: block;
 
 }
