@@ -1,11 +1,15 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 body{
     background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png");
     width: 100vw;
     height: 100vh;
     background-size: 100%;
     overflow: hidden;
-     
-}
+     }
 #astronaut-1{
     width: 500px;
     position: absolute;
@@ -40,9 +44,9 @@ body{
 form{
     position: absolute;
     top: 15%;
-    left: 56%;
-    width: 450px;
-    padding: 75px;
+    left: 63%;
+    width: 350px;
+    padding: 0 75px;
     background-color: white;
     border-radius: 5px;
 
@@ -51,3 +55,23 @@ form{
     display: block;
 
 }
+
+label{
+    font-size: 16px ;
+    margin: 20px 0 4px 0;
+}
+
+input[type="submit"]{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+ input[type="text"],input[type="email"], select{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0 5px;
+ }
